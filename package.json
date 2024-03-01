@@ -10,6 +10,9 @@
     "preview": "vite preview",
     "start": "npm start"
   },
+  "scripts": {
+  "build": "mkdir -p build && vite build"
+},
   "dependencies": {
     "http-proxy-middleware": "^2.0.6",
     "react": "^18.2.0",
