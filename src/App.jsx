@@ -10,7 +10,7 @@ import Page2 from './pages/Page-2/Page-2';
 import Page3 from './pages/Page-3/Page3';
 import './App.css'
 
-export default function Direction() {
+export default function App() {
     return (
         <BrowserRouter>
             <Routes>
