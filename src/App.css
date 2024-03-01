@@ -1,0 +1,47 @@
+#s-1{
+    animation: slide .5s both;
+    animation-timeline: view(200px 300px);
+}
+
+@keyframes slide {
+
+    from{
+        transform: translateX(100px);
+        filter: blur(1px);
+        opacity: 0;
+    }
+    to{
+        transform: translateX(0px);
+        filter: blur(0px);
+        opacity: 1;
+    }
+}
+#s-2{
+    animation: slide-2 1s both;
+    animation-timeline: view(150px 300px);
+}
+
+@keyframes slide-2 {
+
+    from{
+        transform: translateX(-100px);
+        filter: blur(1px);
+        opacity: 0;
+    }
+    to{
+        transform: translateX(0px);
+        filter: blur(0px);
+        opacity: 1;
+    }
+}
+
+#hometitle:hover{
+    background-color: black;
+    width: 10%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    height: 20px;
+    padding: 20px;
+}
