@@ -7,6 +7,6 @@ export default defineConfig({
     outDir: 'dist', 
   },
   server: {
-    port: 5173, 
+    port: vite --host 0.0.0.0, 
   },
 });
