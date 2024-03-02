@@ -17,7 +17,7 @@ export default function Page2Home() {
                     </div>
                     <div className='md:hidden'>
                         <ul className='flex gap-10 m-5 '>
-                            <a href="https://github.com/rajboopathiking/User-classification" target='/blank'><ion-icon size='large' name="logo-github"></ion-icon></a>
+                            <a href="https://github.com/rajboopathiking/User-classification" target='_blank'><ion-icon size='large' name="logo-github"></ion-icon></a>
                         </ul>
                     </div>
                 </div>

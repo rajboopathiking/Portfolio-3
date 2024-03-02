@@ -12,7 +12,7 @@ export default function Home() {
     <div>
       <div className='flex justify-between px-10 py-3 shadow-lg w-full fixed'>
         <div>
-          <a href="https://github.com/rajboopathiking/User-classification" target='/blank'><ion-icon size='large' name="logo-github"></ion-icon></a>
+          <a href="https://github.com/rajboopathiking/User-classification" target='_blank'><ion-icon size='large' name="logo-github"></ion-icon></a>
         </div>
         <ul className='flex gap-10'>
           <li><a href="#">Home</a></li>

@@ -10,8 +10,8 @@ export default function Footer() {
                         <p>Copyright © 2024 - All right reserved</p>
                     </aside>
                     <nav className="grid-flow-col gap-4 md:place-self-center md:justify-self-end">
-                        <a href="https://github.com/rajboopathiking" target='/blank'><ion-icon size='large' name="logo-github"></ion-icon></a>
-                        <a href="https://www.linkedin.com/in/boopathi-raj-442911170/" target='/blank'><ion-icon size='large'  name="logo-linkedin"></ion-icon></a>
+                        <a href="https://github.com/rajboopathiking" target='_blank'><ion-icon size='large' name="logo-github"></ion-icon></a>
+                        <a href="https://www.linkedin.com/in/boopathi-raj-442911170/" target='_blank'><ion-icon size='large'  name="logo-linkedin"></ion-icon></a>
                         <a href="mailto:rajboopathiking@gmail.com" target='/blank'><ion-icon size='large'  name="mail-outline"></ion-icon></a>
                     </nav>
                 </footer>
