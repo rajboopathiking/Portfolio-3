@@ -2,7 +2,7 @@ import React from 'react'
 import Image1 from '../../../public/Image-1.jpg'
 import Image2 from '../../../public/Image-2.jpg'
 import Image3 from '../../../public/Image-3.jpg'
-
+import { Link } from 'react-router-dom'
 export default function Projects() {
   return (
 
@@ -20,7 +20,7 @@ export default function Projects() {
                 <h1 className='font-bold text-[red] '>User Classification</h1>
                 <p className='w-[300px] text-start  p-2' >Our goal to predict will student purchase course or not Based On the Data which collected from 365 datascience Education platform.</p>
                 <div className='flex  items-center justify-end gap-[2px] px-2 text-blue w-[100px] absolute left-[200px] bottom-2'>
-                  <button className='relative top-1  w-[100px] rounded  '><a href="/page2" target='_blank'><ion-icon size='large' name="arrow-forward-circle-outline"></ion-icon></a></button>
+                  <button className='relative top-1  w-[100px] rounded  '><Link to='/page2'><ion-icon size='large' name="arrow-forward-circle-outline"></ion-icon></Link></button>
 
                 </div>
 
@@ -37,7 +37,7 @@ export default function Projects() {
                 <h1 className='font-bold text-[red] '>Recommended System</h1>
                 <p className='w-[300px] text-start  p-2' >Kaggle's database recommendation system suggests datasets based on user preferences and past interactions, enhancing data discovery and analysis.</p>
                 <div className='flex  items-center justify-end gap-[2px] px-2 text-blue w-[100px] absolute left-[200px] bottom-2'>
-                  <button className='relative top-1  w-[100px] rounded '><a href="/page3" target='_blank'><ion-icon size='large' name="arrow-forward-circle-outline"></ion-icon></a></button>
+                  <button className='relative top-1  w-[100px] rounded '><Link to="/page3"><ion-icon size='large' name="arrow-forward-circle-outline"></ion-icon></Link></button>
 
                 </div>
 

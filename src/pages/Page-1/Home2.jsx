@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import '../../App.css'
+import { Link } from 'react-router-dom';
 export default function Page2Home() {
     const [sidebar, setSidebar] = useState(false);
 
@@ -10,7 +11,7 @@ export default function Page2Home() {
             <div>
                 <div className='flex justify-between items-center px-5 relative z-10    '>
                     <div >
-                        <a href="/" id='hometitle' className='text-[purple] hover:text-[white]'>Home</a>
+                        <Link to='/' id='hometitle' className='text-[purple] hover:text-[white]'>Home</Link>
                     </div>
                     <div className="lg:hidden hover:text-[white]" >
                         <ion-icon onClick={handleMenu} size='large' name="menu-outline"></ion-icon>

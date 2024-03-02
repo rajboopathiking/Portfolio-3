@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
 
 export default function Home() {
   const [sidebar, setSidebar] = useState(false);
@@ -15,7 +16,7 @@ export default function Home() {
           <a href="https://github.com/rajboopathiking/User-classification" target='_blank'><ion-icon size='large' name="logo-github"></ion-icon></a>
         </div>
         <ul className='flex gap-10'>
-          <li><a href="#">Home</a></li>
+          <Link to='/'><li>Home</li></Link>
           <li><a href="#About">About</a></li>
           <li><a href="#Contact">Contact</a></li>
         </ul>

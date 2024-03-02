@@ -5,7 +5,6 @@ import Contact from './components/Contact';
 import Home from './components/Home/Home';
 import Notfound from './components/Notfound';
 import Page1 from './pages/Page-1/Page-1';
-
 import Page2 from './pages/Page-2/Page-2';
 import Page3 from './pages/Page-3/Page3';
 import './App.css'
